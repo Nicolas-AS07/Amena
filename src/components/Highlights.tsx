@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Sparkles, Clock, Heart, Calendar } from 'lucide-react';
-import DesignSobranselhaImg from '../Imagens/Design de Sobranselha.png';
-import RelaxamentoTotalImg from '../Imagens/Relaxamento Total.png';
-import LimpezaDePeleImg from '../Imagens/Limpeza de Pele.png';
+import DesignSobranselhaImg from '../imagens/Design de Sobranselha.png';
+import RelaxamentoTotalImg from '../imagens/Relaxamento Total.png';
+import LimpezaDePeleImg from '../imagens/Limpeza de Pele.png';
 
 const Highlights: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
