@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Star, Calendar, Instagram, Award } from 'lucide-react';
-import YukiTanakimg from '../Imagens/Yuki Tanak.png';
-import AnaCostaimg from '../Imagens/Ana Costa.png';
-import Marinasilvaimg from '../Imagens/Marina Silva.jpg';
+import YukiTanakimg from '../imagens/Yuki Tanak.png';
+import AnaCostaimg from '../imagens/Ana Costa.png';
+import Marinasilvaimg from '../imagens/Marina Silva.jpg';
 
 const Team: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
