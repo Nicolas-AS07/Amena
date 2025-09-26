@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Calendar, X, Filter } from 'lucide-react';
-import RelaxamentoTotalImg from '../Imagens/Relaxamento Total.png';
-import LimpezaDePeleImg from '../Imagens/Limpeza de Pele.png';
-import DesignSobranselhaImg from '../Imagens/Design de Sobranselha.png';
-import MicropigmmentacaoImg from '../Imagens/Micropigmmentacao.png';
-import HidratacaoIntensaImg from '../Imagens/hidratacao intensa.png';
-import EquilibrioZenImg from '../Imagens/equilibrio zen.png';
+import RelaxamentoTotalImg from '../imagens/Relaxamento Total.png';
+import LimpezaDePeleImg from '../imagens/Limpeza de Pele.png';
+import DesignSobranselhaImg from '../imagens/Design de Sobranselha.png';
+import MicropigmmentacaoImg from '../imagens/Micropigmmentacao.png';
+import HidratacaoIntensaImg from '../imagens/hidratacao intensa.png';
+import EquilibrioZenImg from '../imagens/equilibrio zen.png';
 
 interface PortfolioItem {
   id: number;
